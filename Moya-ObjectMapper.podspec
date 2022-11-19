@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ivan Bruel" => "ivan.bruel@gmail.com" }
   s.social_media_url   = "http://twitter.com/ivanbruel"
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '10.0'
-  s.source       = { :git => "https://github.com/bmoliveira/Moya-ObjectMapper.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/mykoma/Moya-ObjectMapper", :tag => s.version }
   s.default_subspec = "Core"
   s.swift_version = '5.0'
 
